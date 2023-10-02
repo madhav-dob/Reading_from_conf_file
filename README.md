@@ -25,13 +25,13 @@ Compile the C file witht the command and make an executable fiel
 
 
 
-             ''' gcc Main.c -o test '''   
+              gcc Main.c -o test           
 
 Now run the executable file using this   
 
 
 
-               ''' ./test '''   
+               ./test     
 
 
                
