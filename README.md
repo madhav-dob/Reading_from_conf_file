@@ -3,7 +3,7 @@
 ## In this repo you can make changes in the config file only instead of changing in the whole Project code!!    
 
 # You need to create two files 1.) Main.c   
-                               2.) Conf.txt   
+  2.) Conf.txt   
 
 # Conf.txt   
 
@@ -21,17 +21,24 @@ Finally, you print those values to see if it's working!!
 
 # Copy paste the whole code from the files Given    
 
-Compile the C file witht the command and make an executable fiel    
+Compile the C file witht the command and make an executable fiel   
 
-''' gcc Main.c -o test '''   
+
+
+             ''' gcc Main.c -o test '''   
 
 Now run the executable file using this   
 
-''' ./test '''   
+
+
+               ''' ./test '''   
+
+
+               
 
 
 
-#NOTE_HERE!!!    
+# NOTE_HERE!!!    
 
  This is just an example file for the testing, you need to do this in your project then customize the files accordingly !!  
 
