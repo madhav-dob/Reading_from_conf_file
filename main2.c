@@ -19,22 +19,32 @@ void ngKoreExtractDigits(int num1, int num2 ) {
     mcc1 = (num1 / 10) % 10;
     mcc2 = num1 % 10;
 
-    // Extract digits from the second number (2 or 3 digits)
-    if (num2 >= 10 && num2 <= 999) {
-        // 2 or 3 digits
-        if (num2 >= 100) {
-            mnc0 = num2 / 100;   // Store the first digit
-            mnc1 = (num2 / 10) % 10; // Store the second digit
-            mnc2 = num2 % 10;    // Store the third digit
-        } else {
-            mnc0 = num2 / 10;;  // Leave the first variable untouched
-            mnc1 = num2 % 10;   // Store the first digit
-            mnc2 = 0;   // Store the second digit
-        }
-    } else {
-        // Not a 2 or 3-digit number, set digits to -1 or some other default value
-        mnc0 = mnc1 = mnc2 = -1;
-    }
+    
+    mnc0 = (num2 / 10) % 10;
+    mnc1 = num2 % 10;
+    mnc2 = 0;
+
+
+    // // Extract digits from the second number (2 or 3 digits)
+    // if (num2 >= 0 && num2 <= 999) {
+    //     // 2 or 3 digits
+    //     if (num2 >= 100) {
+    //         mnc0 = num2 / 100;   // Store the first digit
+    //         mnc1 = (num2 / 10) % 10; // Store the second digit
+    //         mnc2 = num2 % 10;    // Store the third digit
+    //     } else if (num2 >= 10) {
+    //         mnc0 = num2 / 10;;  // Leave the first variable untouched
+    //         mnc1 = num2 % 10;   // Store the first digit
+    //         mnc2 = 0;   // Store the second digit
+    //     } else {
+    //         mnc0 = 0;  // Leave the first variable untouched
+    //         mnc1 = num2 ;   // Store the first digit
+    //         mnc2 = 0;   // Store the second digit
+    //     }
+    // } else {
+    //     // Not a 2 or 3-digit number, set digits to -1 or some other default value
+    //     mnc0 = mnc1 = mnc2 = -1;
+    // }
 
     printf("\n mcc %d %d %d\n", mcc0 , mcc1, mcc2);
     printf("\n mnc %d %d %d\n", mnc0 , mnc1, mnc2); 

@@ -1,3 +1,3 @@
 # Sample config.txt file
-mcc =  311
-mnc = 48
+mcc =  001
+mnc = 01
