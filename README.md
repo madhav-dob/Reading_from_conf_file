@@ -3,8 +3,8 @@
 ## In this repo you can make changes in the config file only instead of changing in the whole Project code!!    
 
 # You need to create two files
-  1.) Main.c   
-  2.) Conf.txt   
+1.) Main.c   
+2.) Conf.txt   
 
 # Conf.txt   
 
